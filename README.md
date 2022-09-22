@@ -18,27 +18,100 @@ To write a program to perform linear search and binary search using python progr
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
 i)	#Use a linear search method to match the item in a list.
+```''' python
+Program for linear search method to match the item in a list
+Developed by: your name DHARSHAN V
+RegisterNumber: 22003103
+'''
+def linearsearch(array,n,k):
+    for i in range(0,n):
+        if (array[i] == k):
+            return i
+    return -1
+array = eval(input())
+k = eval(input())
+n = len(array)
+array.sort()
+result = linearsearch(array,n,k)
+if (result == -1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",result)
+    
 ```
+##OUTPUT:
 
 
+![IterativeMethod](https://user-images.githubusercontent.com/113497491/191754670-785e7d4b-945e-48fd-b331-606bf1f83e0d.png)
 
-```
+
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-
-
-
-
+def binarySearchIter(array,k,low,high):
+    while low<=high:
+        mid=low+(high-low)//2
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return-1
+array=eval(input())
+array.sort()
+k = eval(input())
+result = binarySearchIter(array,k,0,len(array)-1)
+if result==-1:
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",result)
 
 ```
+##OUPUT:
+
+![IterativeMethod](https://user-images.githubusercontent.com/113497491/191754732-e59acc48-229b-4d9e-ae84-4ce21db1437c.png)
+
+
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
-
-
-
-
-
+''' 
+Program to find the element in a list using Binary Search (recursive Method).
+Developed by: your name
+RegisterNumber: 
+'''
+def BinarySearch(arr,k,low,high):
+    if low <= high:
+        mid = low + (high - low)//2
+        if array[mid] == k:
+            return mid
+        elif array[mid] > k:
+            return  BinarySearch(arr,k,low,mid-1) 
+        else:
+            return BinarySearch(arr,k,mid+1,high)
+    else:
+        return-1
+array=eval(input())
+array.sort()
+k = eval(input())
+result = BinarySearch(array,k,0,len(array)-1)
+if result==-1:
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",result)
+        
 ```
+##OUTPUT:
+
+![IterativeMethod](https://user-images.githubusercontent.com/113497491/191754809-8acfc139-e8ae-4edc-9ba2-5fd1188c6729.png)
+
+
+
 ## Sample Input and Output
 
 
