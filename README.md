@@ -53,7 +53,10 @@ else:
 ##OUTPUT:
 
 
+
+
 ![IterativeMethod](https://user-images.githubusercontent.com/113497491/191754670-785e7d4b-945e-48fd-b331-606bf1f83e0d.png)
+
 
 
 
@@ -93,6 +96,7 @@ else:
 
 
 
+
 ![IterativeMethod](https://user-images.githubusercontent.com/113497491/191754732-e59acc48-229b-4d9e-ae84-4ce21db1437c.png)
 
 
@@ -104,9 +108,7 @@ iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
 /*
 
-Program to find the element in a list using Binary Search (recursive Method).
-Developed by: your name
-RegisterNumber: 
+Program to find the element in a list using Binary Search (recursive Method). 
 
 def BinarySearch(arr,k,low,high):
     if low <= high:
@@ -133,6 +135,7 @@ else:
 /*
       
 ```
+
 
 
 ##OUTPUT:
