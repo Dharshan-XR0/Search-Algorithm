@@ -44,6 +44,9 @@ else:
     print("Element found at index: ",result)
     
 ```
+
+
+
 ##OUTPUT:
 
 
@@ -77,9 +80,16 @@ else:
 
 ```
 
+
+
 ##OUPUT:
 
+
+
 ![IterativeMethod](https://user-images.githubusercontent.com/113497491/191754732-e59acc48-229b-4d9e-ae84-4ce21db1437c.png)
+
+
+
 
 
 iii)	# Find the element in a list using Binary Search (recursive Method).
@@ -112,16 +122,11 @@ else:
     print("Element found at index: ",result)
         
 ```
+
+
 ##OUTPUT:
 
 ![IterativeMethod](https://user-images.githubusercontent.com/113497491/191754809-8acfc139-e8ae-4edc-9ba2-5fd1188c6729.png)
-
-
-
-## Sample Input and Output
-
-
-
 
 
 
